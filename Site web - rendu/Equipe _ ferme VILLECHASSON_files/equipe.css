@@ -1,0 +1,105 @@
+/* For smartphone----------------------------- */
+@media only screen and (max-width: 1100px) {
+
+/* Section */
+.bloc_equipe
+{
+	width:100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.photo:nth-child(2)
+{
+	padding: 5% 0% 5% 0%;
+}
+
+/* Size of image */
+.photo img
+{
+	max-width:100%;
+	height:auto;
+}
+
+}
+
+/* For desktop----------------------------- */
+@media only screen and (min-width: 1100px) {
+
+/* Nav */
+.dropdown:nth-child(6) a
+{
+	color:rgba(200,200,200,0.5);
+}
+
+/* Section */
+section
+{
+	background-image: url(https://photoblog.randonneurs.ch/20150531221704/bigdsc01587_dxo.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	height:500px;
+}
+
+/* Size */
+.bloc_equipe
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap:wrap;
+	height:100%;
+}
+
+.photo:nth-child(1)
+{
+	width:20%;
+}
+
+.photo:nth-child(2)
+{
+	width:20%;
+}
+
+.photo:nth-child(3)
+{
+	width:20%;
+}
+
+.photo:nth-child(4)
+{
+	width:20%;
+}
+
+/* Size of image */
+.photo img
+{
+	max-width:100%;
+	height:auto;
+    opacity: 0.5;  
+}
+
+.photo img
+{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.photo:hover img
+{
+    -webkit-transform:scale(1.6); /* Safari and Chrome */
+    -moz-transform:scale(1.6); /* Firefox */
+    -ms-transform:scale(1.6); /* IE 9 */
+    -o-transform:scale(1.6); /* Opera */
+     transform:scale(1.6);
+     opacity:1;
+}
+
+}

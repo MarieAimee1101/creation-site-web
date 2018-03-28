@@ -1,0 +1,152 @@
+
+/* For smartphone----------------------------- */
+@media only screen and (max-width: 1100px) {
+
+/* Section */
+
+section
+{
+	background-color: white;
+	color: black;
+	font-size: 1em;
+	text-align: justify;
+
+	display: flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+}
+
+.sous_bloc
+{
+	width:90%;
+	padding:5% 0 5% 5%;
+}
+
+.texteElt a
+{
+	color:inherit;
+}
+
+.photoElt
+{
+	display: none;
+}
+
+}
+
+/* For desktop----------------------------- */
+@media only screen and (min-width: 1100px) {
+
+/* Nav */
+.dropdown:nth-child(1) a
+{
+	color:rgba(200,200,200,0.5);
+}
+
+/* Section */
+section
+{
+	font-size: 0.9em;
+
+	background-image: url(https://www.francetvinfo.fr/image/75546lmgc-64a8/1200/450/6621577.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	height:600px;
+}
+
+.container_section
+{
+	width:100%;
+	height:100%;
+
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:flex-end;
+}
+
+.bloc_section
+{
+	width:80%;
+	height:80%;
+
+
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:flex-start;
+}
+
+.sous_bloc a
+{
+	text-decoration: none;
+}
+
+.sous_bloc:nth-child(1)
+{
+	width:25%;
+	height:80%;
+
+	background-color:white;
+	opacity: 0.9;
+
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+}
+
+.sous_bloc:nth-child(2)
+{
+	width:30%;
+	height:80%;
+
+	background-color:white;
+	opacity: 0.9;
+
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+}
+
+.content
+{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-between;
+
+	width:95%;
+	height:95%;
+}
+
+.photoElt img
+{
+	max-width: 100%;
+	height:auto;
+}
+
+.texteElt
+{
+	border:solid 1px rgba(20,20,20,0.1);
+	overflow: auto;
+}
+
+.section_titre
+{
+	text-align: center;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+}
