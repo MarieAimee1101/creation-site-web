@@ -104,7 +104,7 @@ section
 .bout
 {
 	width:14%;
-	height:95%;
+	height:100%;
 
 	display:flex;
 	flex-direction:column;
@@ -114,12 +114,12 @@ section
 
 .image_bout
 {
-	height:85%;
+	height: 100%;
 }
 
 .image_bout img
 {
-	width:auto;
+	width:95%;
 	max-height:100%;
 }
 
