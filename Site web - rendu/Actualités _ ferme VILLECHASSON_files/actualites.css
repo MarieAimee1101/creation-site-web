@@ -41,7 +41,13 @@ section
 /* Nav */
 .dropdown:nth-child(1) a
 {
-	color:rgba(200,200,200,0.5);
+	color:rgba(200,200,200,1);
+}
+
+.dropdown-content
+{
+	background-color: rgba(20,20,20,1);
+	z-index: 1;
 }
 
 /* Section */

@@ -97,7 +97,7 @@ section
 
 .description
 {
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.6);
 	padding: 0% 1% 0% 1%;
 	width:45%;
 }
@@ -134,7 +134,7 @@ section
 .horizontal
 {
 	max-width:100%;
-	height:auto;
+	max-height:100px;
 }
 
 .vertical
@@ -154,11 +154,11 @@ section
 
 .photo:hover 
 {
-    -webkit-transform:scale(2); /* Safari and Chrome */
-    -moz-transform:scale(2); /* Firefox */
-    -ms-transform:scale(2); /* IE 9 */
-    -o-transform:scale(2); /* Opera */
-     transform:scale(2);
+    -webkit-transform:scale(1.6); /* Safari and Chrome */
+    -moz-transform:scale(1.6); /* Firefox */
+    -ms-transform:scale(1.6); /* IE 9 */
+    -o-transform:scale(1.6); /* Opera */
+     transform:scale(1.6);
 }
 
 }
