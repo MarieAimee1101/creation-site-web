@@ -79,7 +79,7 @@ section
 .photo img
 {
 	max-width:100%;
-	height:auto;
+	height: 200px;
     opacity: 0.5;  
 }
 
@@ -94,11 +94,11 @@ section
 
 .photo:hover img
 {
-    -webkit-transform:scale(1.6); /* Safari and Chrome */
-    -moz-transform:scale(1.6); /* Firefox */
-    -ms-transform:scale(1.6); /* IE 9 */
-    -o-transform:scale(1.6); /* Opera */
-     transform:scale(1.6);
+    -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+     transform:scale(1.2);
      opacity:1;
 }
 
